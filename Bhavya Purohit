@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" herf="favourite.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <br>
+        <a href="">About Us&emsp;</a>
+        <a href="">Best Deals&emsp;</a>
+        <a href="">New Realeses&emsp;</a>
+        <a href="">Contact Us&emsp;</a>
+        <a href="">Add to cart&emsp;</a>
+        <a href="">Sign in&emsp;</a>
+        <a href="">Sign up</a>
+        <br><br>
+    </header>
+
+<nav class="navbar">
+    <div class="nav">
+        <div class="nav-items">
+            <div class="search">
+                <input type="text" class="search-box" placeholder="Search your choice">
+                <button class="search-btn">search</button>
+            </div><pre>
+
+            <label for="Types" class="Type">Types:</label>
+            <select name="" id="" class="types">
+            <option value="Silk Saaree">Silk Saaree</option>
+            <option value="Cotton Saaree">Cotton Saaree</option>
+            <option value="Organza Saaree">Organza Saaree</option>
+            <option value="Chanderi Saaree">Chanderi Saaree</option>
+            <option value="Bandhani Saaree">Bandhani Saaree</option>
+            <option value="Georgette Saaree">Georgette Saaree</option>
+            <option value="Chiffon Saaree">Chiffon Saaree</option>
+            <option value="Kanjeevaram Saaree">Kanjeevaram Saaree</option>
+            <option value="Leheriya Saaree">Leheriya Saaree</option>
+            <option value="Kashmiri Saaree">Kashmiri Saaree</option>
+            <option value="Chikankari Saaree">Chikankari Saaree</option>
+            <option value="Gta Patti Saaree">Gota Patti Saaree</option>
+            <option value="Phulkari Saaree">Phulkari Saare</option>
+            <option value="Kanchipuram Saaree">Kanchipuram Saaree</option>
+            
+    
+
+        </div>
+    </div>
+</nav>
+
+<img src="C:\Users\bhavy\Downloads\Light Pink Bold Illustration Indian Girl Fashion Shop Logo.png" alt="" width="100px" height="q00px">
+    <div class="Saaree-1">
+        <img src="C:\Users\bhavy\Downloads\Saaree 2.jpg" alt="">
+    <img src="C:\Users\bhavy\Downloads\Saare 1.jpg" alt="">
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+//CSS
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar{
+    position: end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: burlywood;
+    z-index: 9;
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-self: self-end;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.search-box{
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #0b0000;
+    text-transform: capitalize;
+    background: none;
+    color: rgb(11, 11, 11);
+    outline: none;
+    align-items: end;
+    box-shadow: 3px 3px 3px purple;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #060606;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: end;
+    box-shadow: 3px 3px 3px purple;
+}
+
+.search-box::placeholder{
+    color: rgb(13, 13, 14);
+    text-shadow: #0b0000;
+}
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+
+
+.bg{
+    background-color: black;
+    
+}
+
+.types{
+    
+    box-shadow: 4px 4px 4px purple;
+}
+
+.main-section-1{
+    display: flex;
+    padding: 15px;
+}
+
+.header{
+    padding: 10px;
+    color: rgb(247, 241, 247);
+}
+
+.Saare-1:hover{
+box-shadow: 5px 5px 5px 5px burlywood;
+}
+
+.brand:hover{
+    box-shadow: 10px 10px 10px 10px purple;
+}
+
+.h1{
+    
+    font-family: cursive;
+color: burlywood;
+text-decoration: wavy;
+}
+
+    
+
+.Saaree-2:hover{
+box-shadow: 3px 3px 3px burlywood;
+border: #fff;
+}
+
+.intro{
+    color: #fff;
+}
+
+.adress-form{
+    color:#fff;
+}
+
+.name{
+    color: #fff;
+}
+
+.mobile{
+    color: #fff;
+}
+
+.E-mail{
+    color: #fff;
+}
+
+.Address{
+    color: #fff;
+}
+
+.City{
+    color: #fff;
+}
+
+.State{
+    color: #fff;
+}
+
+.Zip{
+    color: #fff;
+}
+
+.Country{
+    color: #fff;
+}
+
+.New-Release{
+    color: burlywood;
+    position: center;
+}
+
+
+
